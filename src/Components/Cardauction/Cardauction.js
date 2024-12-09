@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// Sample auction data
+
 const auctionItems = [
   {
     id: 1,
@@ -29,7 +29,7 @@ const auctionItems = [
     description: "A rare classic car from the 1960s, perfect for collectors.",
     price: "$120,000",
   },
-  // Add more cars as needed
+ 
 ];
 
 const Cardauction = () => {
