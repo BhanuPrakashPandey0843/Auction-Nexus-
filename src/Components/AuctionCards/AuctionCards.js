@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const AuctionCarousel = () => {
-  // Sample auction data with unique data for each card
+  
   const auctionItems = [
     {
       id: 1,
@@ -49,7 +49,7 @@ const AuctionCarousel = () => {
     },
   ];
 
-  // Countdown state
+
   const [countdowns, setCountdowns] = useState(
     auctionItems.map((item) => ({
       id: item.id,
@@ -57,7 +57,7 @@ const AuctionCarousel = () => {
     }))
   );
 
-  // Update countdown every second
+ 
   useEffect(() => {
     const interval = setInterval(() => {
       setCountdowns((prevCountdowns) =>
