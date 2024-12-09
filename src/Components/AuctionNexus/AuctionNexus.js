@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import auctionImage from "./nexus-image.png"; // Update the path to your local image
+import auctionImage from "./nexus-image.png"; 
 
-// Inline Styles for Animations
+
 const styles = {
   fadeInUp: {
     animation: "fadeInUp 1s ease-out",
@@ -15,7 +15,7 @@ const styles = {
   },
 };
 
-// Add Keyframes for Custom Animations
+
 const styleSheet = document.styleSheets[0];
 styleSheet.insertRule(
   `@keyframes fadeInUp {
