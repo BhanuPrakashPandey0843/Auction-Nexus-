@@ -3,9 +3,9 @@ auction-nexus/
 │   ├── index.html
 │   ├── favicon.ico
 │   ├── manifest.json
-│   └── assets/               # Static assets (images, fonts, etc.)
+│   └── assets/             
 ├── src/
-│   ├── Components/           # Reusable components
+│   ├── Components/          
 │   │   ├── Header.jsx        # Header component
 │   │   ├── Footer.jsx        # Footer component
 │   │   ├── Button.jsx        # Custom button component
