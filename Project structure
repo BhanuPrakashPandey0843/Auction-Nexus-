@@ -10,9 +10,9 @@ auction-nexus/
 │   │   ├── Footer.jsx        # Footer component
 │   │   ├── Button.jsx        # Custom button component
 │   │   └── ...               # Other shared components
-│   ├── Pages/                # Page components (views)
-│   │   ├── Home.jsx          # Landing page
-│   │   ├── AuctionList.jsx   # Page for listing auctions
+│   ├── Pages/               
+│   │   ├── Home.jsx         
+│   │   ├── AuctionList.jsx  
 │   │   ├── AuctionDetail.jsx  # Page for auction details
 │   │   ├── Login.jsx         # Login page
 │   │   └── ...               # Other pages
