@@ -1,0 +1,41 @@
+auction-nexus/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   ├── manifest.json
+│   └── assets/             
+├── src/
+│   ├── Components/          
+│   │   ├── Header.jsx        # Header component
+│   │   ├── Footer.jsx        # Footer component
+│   │   ├── Button.jsx        # Custom button component
+│   │   └── ...               # Other shared components
+│   ├── Pages/               
+│   │   ├── Home.jsx         
+│   │   ├── AuctionList.jsx  
+│   │   ├── AuctionDetail.jsx  # Page for auction details
+│   │   ├── Login.jsx         # Login page
+│   │   └── ...               # Other pages
+│   ├── context/              # Context API for state management
+│   │   ├── AuthContext.jsx   # Authentication context
+│   │   └── ...               # Other contexts
+│   ├── hooks/                # Custom hooks
+│   │   ├── useAuth.js        # Hook for authentication
+│   │   └── ...               # Other hooks
+│   ├── services/             # API calls and services
+│   │   ├── api.js            # Axios instance and API functions
+│   │   └── ...               # Other services
+│   ├── styles/               # Global styles and Tailwind CSS configuration
+│   │   ├── index.css         # Tailwind CSS imports
+│   │   └── ...               # Other styles (if needed)
+│   ├── utils/                # Utility functions
+│   │   ├── constants.js       # Constants used throughout the app
+│   │   └── helpers.js        # Helper functions
+│   ├── App.jsx               # Main App component
+│   ├── index.js              # Entry point of the application
+│   └── reportWebVitals.js    # Web vitals reporting
+├── .env                      # Environment variables
+├── .gitignore                # Git ignore file
+├── package.json              # Project dependencies and scripts
+├── tailwind.config.js        # Tailwind CSS configuration
+└── postcss.config.js         # PostCSS configuration
