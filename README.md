@@ -32,7 +32,7 @@ Ensure you have the following installed on your system:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/auction-nexus.git
+   https://github.com/BhanuPrakashPandey0843/Auction-Nexus-.git
    cd auction-nexus
    ```
 
